@@ -1,0 +1,33 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-07-15T11:45:46.806+08:00  INFO 110224 --- [           main] com.demo.DemoApplication                 : Starting DemoApplication v1.0-SNAPSHOT using Java 25.0.1 with PID 110224 (C:\Users\lin\Desktop\学校作业\实习代码存放\demo\target\demo-1.0-SNAPSHOT.jar started by lin in C:\Users\lin\Desktop\学校作业\实习代码存放)
+2026-07-15T11:45:46.810+08:00  INFO 110224 --- [           main] com.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T11:45:47.605+08:00  INFO 110224 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-07-15T11:45:47.609+08:00  INFO 110224 --- [           main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+2026-07-15T11:45:47.613+08:00  INFO 110224 --- [           main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+2026-07-15T11:45:47.620+08:00  INFO 110224 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T11:45:47.620+08:00  INFO 110224 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-07-15T11:45:47.657+08:00  INFO 110224 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-15T11:45:47.657+08:00  INFO 110224 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 787 ms
+2026-07-15T11:45:47.680+08:00  INFO 110224 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T11:45:47.838+08:00  INFO 110224 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-07-15T11:45:47.840+08:00  INFO 110224 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T11:45:47.848+08:00  INFO 110224 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+Get /10.122.131.248 network interface 
+Get network interface info: name:wireless_32768 (RZ616 Wi-Fi 6E 160MHz)
+Initialization Sequence datacenterId:29 workerId:11
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.7 
+2026-07-15T11:45:48.577+08:00  INFO 110224 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-07-15T11:45:48.584+08:00  INFO 110224 --- [           main] com.demo.DemoApplication                 : Started DemoApplication in 2.116 seconds (process running for 2.409)
+2026-07-15T13:59:17.912+08:00  WARN 110224 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h41m30s650ms56µs).

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["app"]
+
+[project]
+name = "user-management-backend"
+version = "1.0.0"
+description = "User management system with JWT auth"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0,<1",
+  "email-validator>=2.2.0,<3",
+  "uvicorn[standard]>=0.34.0,<1",
+  "python-multipart>=0.0.20,<1",
+  "python-dotenv>=1.0.1,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.0,<9",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
